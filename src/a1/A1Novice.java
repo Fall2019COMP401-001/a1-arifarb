@@ -23,7 +23,7 @@ public class A1Novice {
 				double c = scan.nextDouble();
 				cost += amount*c;
 			}
-			System.out.println(a + ". " + b + ": " + cost);
+			System.out.printf("%c. %s: %.2f\n", a, b, cost);
 		}
 	}
 }

@@ -32,7 +32,7 @@ public class A1Adept {
 		}
 		System.out.printf("Biggest: %s (%.2f)\n", peoplename[largest(peoplespent)], peoplespent[largest(peoplespent)]);
 		System.out.printf("Smallest: %s (%.2f)\n", peoplename[smallest(peoplespent)], peoplespent[smallest(peoplespent)]);
-		System.out.printf("Average: %.2f", average(peoplespent));
+		System.out.printf("Average: %.2f\n", average(peoplespent));
 	}
 	static int largest(double[] input) {
 		double temp_largest = 0;
